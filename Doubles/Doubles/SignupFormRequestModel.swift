@@ -1,0 +1,15 @@
+//
+//  SignupFormRequestModel.swift
+//  Doubles
+//
+//  Created by Rafael Oliveira on 15/07/22.
+//
+
+import Foundation
+
+struct SignupFormRequestModel: Codable{
+    let firstName: String
+    let lastName: String
+    let email: String
+    let password: String
+}

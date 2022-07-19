@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27815BC52885DCD7008E0F31 /* SignupFormModelValidatorTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27815BC42885DCD6008E0F31 /* SignupFormModelValidatorTestCase.swift */; };
+		27815BC72885DDB5008E0F31 /* SignupFormModelValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27815BC62885DDB5008E0F31 /* SignupFormModelValidator.swift */; };
+		27815BCA2885E304008E0F31 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27815BC92885E304008E0F31 /* Extension.swift */; };
 		278E48762881AC5D00C76C27 /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278E48752881AC5D00C76C27 /* MockURLProtocol.swift */; };
 		279A6FFE28819E07004E68F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279A6FFD28819E07004E68F6 /* AppDelegate.swift */; };
 		279A700028819E07004E68F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279A6FFF28819E07004E68F6 /* SceneDelegate.swift */; };
@@ -14,8 +17,6 @@
 		279A700728819E08004E68F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279A700628819E08004E68F6 /* Assets.xcassets */; };
 		279A700A28819E08004E68F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279A700828819E08004E68F6 /* LaunchScreen.storyboard */; };
 		279A701528819E08004E68F6 /* SignupWebServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279A701428819E08004E68F6 /* SignupWebServiceTests.swift */; };
-		279A701F28819E08004E68F6 /* DoublesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279A701E28819E08004E68F6 /* DoublesUITests.swift */; };
-		279A702128819E08004E68F6 /* DoublesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279A702028819E08004E68F6 /* DoublesUITestsLaunchTests.swift */; };
 		279A703028819F37004E68F6 /* SignupWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279A702F28819F37004E68F6 /* SignupWebService.swift */; };
 		279A703228819FBC004E68F6 /* SignupFormRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279A703128819FBC004E68F6 /* SignupFormRequestModel.swift */; };
 		279A70352881A1D5004E68F6 /* SignupResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279A70342881A1D5004E68F6 /* SignupResponseModel.swift */; };
@@ -31,16 +32,12 @@
 			remoteGlobalIDString = 279A6FF928819E07004E68F6;
 			remoteInfo = Doubles;
 		};
-		279A701B28819E08004E68F6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 279A6FF228819E07004E68F6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 279A6FF928819E07004E68F6;
-			remoteInfo = Doubles;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27815BC42885DCD6008E0F31 /* SignupFormModelValidatorTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModelValidatorTestCase.swift; sourceTree = "<group>"; };
+		27815BC62885DDB5008E0F31 /* SignupFormModelValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModelValidator.swift; sourceTree = "<group>"; };
+		27815BC92885E304008E0F31 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		278E48752881AC5D00C76C27 /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
 		279A6FFA28819E07004E68F6 /* Doubles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doubles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		279A6FFD28819E07004E68F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,9 +48,6 @@
 		279A700B28819E08004E68F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		279A701028819E08004E68F6 /* DoublesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoublesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		279A701428819E08004E68F6 /* SignupWebServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupWebServiceTests.swift; sourceTree = "<group>"; };
-		279A701A28819E08004E68F6 /* DoublesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoublesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		279A701E28819E08004E68F6 /* DoublesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublesUITests.swift; sourceTree = "<group>"; };
-		279A702028819E08004E68F6 /* DoublesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoublesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		279A702F28819F37004E68F6 /* SignupWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupWebService.swift; sourceTree = "<group>"; };
 		279A703128819FBC004E68F6 /* SignupFormRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormRequestModel.swift; sourceTree = "<group>"; };
 		279A70342881A1D5004E68F6 /* SignupResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupResponseModel.swift; sourceTree = "<group>"; };
@@ -76,22 +70,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		279A701728819E08004E68F6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27815BC82885E2FC008E0F31 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				27815BC92885E304008E0F31 /* Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		279A6FF128819E07004E68F6 = {
 			isa = PBXGroup;
 			children = (
 				279A6FFC28819E07004E68F6 /* Doubles */,
 				279A701328819E08004E68F6 /* DoublesTests */,
-				279A701D28819E08004E68F6 /* DoublesUITests */,
 				279A6FFB28819E07004E68F6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,7 +95,6 @@
 			children = (
 				279A6FFA28819E07004E68F6 /* Doubles.app */,
 				279A701028819E08004E68F6 /* DoublesTests.xctest */,
-				279A701A28819E08004E68F6 /* DoublesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,17 +115,9 @@
 			isa = PBXGroup;
 			children = (
 				279A703C2881A318004E68F6 /* Signup */,
+				27815BC42885DCD6008E0F31 /* SignupFormModelValidatorTestCase.swift */,
 			);
 			path = DoublesTests;
-			sourceTree = "<group>";
-		};
-		279A701D28819E08004E68F6 /* DoublesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				279A701E28819E08004E68F6 /* DoublesUITests.swift */,
-				279A702028819E08004E68F6 /* DoublesUITestsLaunchTests.swift */,
-			);
-			path = DoublesUITests;
 			sourceTree = "<group>";
 		};
 		279A702E28819E4C004E68F6 /* Files */ = {
@@ -152,6 +137,7 @@
 				279A70342881A1D5004E68F6 /* SignupResponseModel.swift */,
 				279A70362881A222004E68F6 /* SignupError.swift */,
 				279A70392881A2B2004E68F6 /* SignupConstants.swift */,
+				27815BC62885DDB5008E0F31 /* SignupFormModelValidator.swift */,
 			);
 			name = Model;
 			path = ..;
@@ -160,6 +146,7 @@
 		279A70382881A27B004E68F6 /* Signup */ = {
 			isa = PBXGroup;
 			children = (
+				27815BC82885E2FC008E0F31 /* Utils */,
 				279A703B2881A2E8004E68F6 /* Network */,
 				279A70332881A1C7004E68F6 /* Model */,
 			);
@@ -229,24 +216,6 @@
 			productReference = 279A701028819E08004E68F6 /* DoublesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		279A701928819E08004E68F6 /* DoublesUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 279A702A28819E08004E68F6 /* Build configuration list for PBXNativeTarget "DoublesUITests" */;
-			buildPhases = (
-				279A701628819E08004E68F6 /* Sources */,
-				279A701728819E08004E68F6 /* Frameworks */,
-				279A701828819E08004E68F6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				279A701C28819E08004E68F6 /* PBXTargetDependency */,
-			);
-			name = DoublesUITests;
-			productName = DoublesUITests;
-			productReference = 279A701A28819E08004E68F6 /* DoublesUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -261,10 +230,6 @@
 						CreatedOnToolsVersion = 13.4.1;
 					};
 					279A700F28819E08004E68F6 = {
-						CreatedOnToolsVersion = 13.4.1;
-						TestTargetID = 279A6FF928819E07004E68F6;
-					};
-					279A701928819E08004E68F6 = {
 						CreatedOnToolsVersion = 13.4.1;
 						TestTargetID = 279A6FF928819E07004E68F6;
 					};
@@ -285,7 +250,6 @@
 			targets = (
 				279A6FF928819E07004E68F6 /* Doubles */,
 				279A700F28819E08004E68F6 /* DoublesTests */,
-				279A701928819E08004E68F6 /* DoublesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -307,13 +271,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		279A701828819E08004E68F6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -326,9 +283,11 @@
 				279A703028819F37004E68F6 /* SignupWebService.swift in Sources */,
 				279A703A2881A2B2004E68F6 /* SignupConstants.swift in Sources */,
 				279A703228819FBC004E68F6 /* SignupFormRequestModel.swift in Sources */,
+				27815BCA2885E304008E0F31 /* Extension.swift in Sources */,
 				279A700028819E07004E68F6 /* SceneDelegate.swift in Sources */,
 				279A70372881A222004E68F6 /* SignupError.swift in Sources */,
 				279A70352881A1D5004E68F6 /* SignupResponseModel.swift in Sources */,
+				27815BC72885DDB5008E0F31 /* SignupFormModelValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,15 +297,7 @@
 			files = (
 				279A701528819E08004E68F6 /* SignupWebServiceTests.swift in Sources */,
 				278E48762881AC5D00C76C27 /* MockURLProtocol.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		279A701628819E08004E68F6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				279A701F28819E08004E68F6 /* DoublesUITests.swift in Sources */,
-				279A702128819E08004E68F6 /* DoublesUITestsLaunchTests.swift in Sources */,
+				27815BC52885DCD7008E0F31 /* SignupFormModelValidatorTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,11 +308,6 @@
 			isa = PBXTargetDependency;
 			target = 279A6FF928819E07004E68F6 /* Doubles */;
 			targetProxy = 279A701128819E08004E68F6 /* PBXContainerItemProxy */;
-		};
-		279A701C28819E08004E68F6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 279A6FF928819E07004E68F6 /* Doubles */;
-			targetProxy = 279A701B28819E08004E68F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -585,42 +531,6 @@
 			};
 			name = Release;
 		};
-		279A702B28819E08004E68F6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 56293NUR34;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = rafaelo.oliveira.DoublesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Doubles;
-			};
-			name = Debug;
-		};
-		279A702C28819E08004E68F6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 56293NUR34;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = rafaelo.oliveira.DoublesUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Doubles;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -647,15 +557,6 @@
 			buildConfigurations = (
 				279A702828819E08004E68F6 /* Debug */,
 				279A702928819E08004E68F6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		279A702A28819E08004E68F6 /* Build configuration list for PBXNativeTarget "DoublesUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				279A702B28819E08004E68F6 /* Debug */,
-				279A702C28819E08004E68F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

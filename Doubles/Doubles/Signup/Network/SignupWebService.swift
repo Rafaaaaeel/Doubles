@@ -12,7 +12,6 @@ protocol SignupWebServiceProtocol{
 }
 
 
-
 class SignupWebService: SignupWebServiceProtocol {
     
     private var urlSession: URLSession

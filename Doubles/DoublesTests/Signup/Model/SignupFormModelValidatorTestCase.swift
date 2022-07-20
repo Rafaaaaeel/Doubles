@@ -48,20 +48,20 @@ class SignupFormModelValidatorTestCase: XCTestCase {
     func test_SignupFormModelValidator_WhenFirstNameIsNil_ShouldReturnFalse(){
         let isFirstNameValid = sut.isLastNameValid(lastName: "")
         
-        XCTAssertFalse(isFirstNameValid)
+        XCTAssertFalse(isFirstNameValid, "The isFirstNameIsValid() should have return FALSE for a last name that is empty but it has retured TRUE")
     }
     
     
     func test_SignupFormModelValidator_WhenValidLastNameIsProvided_ShouldReturnTrue() {
         let isLastNameValid = sut.isLastNameValid(lastName: "Pires")
         
-        XCTAssertTrue(isLastNameValid)
+        XCTAssertTrue(isLastNameValid, "The isLastNameIsValid() should have returned TRUE for a last name that is valid but it has returned FALSE")
     }
     
     func test_SignupFormModelValidator_WhenTooShortLastNameIsProvided_shouldReturnFalse(){
         let isLastNameValid = sut.isLastNameValid(lastName: "P")
         
-        XCTAssertFalse(isLastNameValid)
+        XCTAssertFalse(isLastNameValid, "The islastNameValid() should have returned FALSE for a last name that is shorter then 2 character but it has returned TRUE")
     }
     
     func test_SignupFormModelValidator_WhenTooLongLastNameProvided_ShouldReturnFalse(){
@@ -73,27 +73,27 @@ class SignupFormModelValidatorTestCase: XCTestCase {
     func test_SignupFormModelValidator_WhenLastNameIsNil_ShouldReturnFalse(){
         let isLasNameValid = sut.isLastNameValid(lastName: "")
         
-        XCTAssertFalse(isLasNameValid)
+        XCTAssertFalse(isLasNameValid,"The lastNameIsValid() should have return FALSE for a last name that is empty but it has retured TRUE")
     }
     
     
     func test_SignupFormModelValidator_WhenEmailProvidedIsValid_ShouldReturnTrue(){
         let isEmailValid = sut.isEmailValid(email: "rafaelo@icloud.com")
         
-        XCTAssertTrue(isEmailValid)
+        XCTAssertTrue(isEmailValid, "The isEmailValid() should have returned TRUE for a email that is valid but it has returned FALSE")
     }
     
     
     func test_SignupFormModelValidator_WhenEmailProvidedDoesNotCotainAT_ShouldReturnFalse(){
         let isEmailValid = sut.isEmailValid(email: "rafaeloicloud.com")
         
-        XCTAssertFalse(isEmailValid)
+        XCTAssertFalse(isEmailValid, "The isEmailValid() should have returned FALSE for a email that does not contain '@' but it has returned TRUE")
     }
     
     func test_SignupFormModelValidator_WhenEmailProvidedDoesNotCotainDotCom_ShouldReturnFalse(){
         let isEmailValid = sut.isEmailValid(email: "rafaeloicloud@")
         
-        XCTAssertFalse(isEmailValid)
+        XCTAssertFalse(isEmailValid, "The isEmailValid() should have returned FALSE for a email that does not contain '@' but it has returned TRUE")
     }    
     
     

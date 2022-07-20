@@ -102,10 +102,9 @@
 		279A6FFC28819E07004E68F6 /* Doubles */ = {
 			isa = PBXGroup;
 			children = (
-				279A70382881A27B004E68F6 /* Signup */,
 				279A6FFD28819E07004E68F6 /* AppDelegate.swift */,
 				279A6FFF28819E07004E68F6 /* SceneDelegate.swift */,
-				279A700128819E07004E68F6 /* ViewController.swift */,
+				279A70382881A27B004E68F6 /* Signup */,
 				279A702E28819E4C004E68F6 /* Files */,
 			);
 			path = Doubles;
@@ -115,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				279A703C2881A318004E68F6 /* Signup */,
-				27815BC42885DCD6008E0F31 /* SignupFormModelValidatorTestCase.swift */,
 			);
 			path = DoublesTests;
 			sourceTree = "<group>";
@@ -146,6 +144,7 @@
 		279A70382881A27B004E68F6 /* Signup */ = {
 			isa = PBXGroup;
 			children = (
+				27D3535B28881D9900C7343C /* View */,
 				27815BC82885E2FC008E0F31 /* Utils */,
 				279A703B2881A2E8004E68F6 /* Network */,
 				279A70332881A1C7004E68F6 /* Model */,
@@ -164,7 +163,8 @@
 		279A703C2881A318004E68F6 /* Signup */ = {
 			isa = PBXGroup;
 			children = (
-				278E48752881AC5D00C76C27 /* MockURLProtocol.swift */,
+				27D3535D28881DD600C7343C /* Dobules */,
+				27D3535C28881DC900C7343C /* Model */,
 				279A703D2881A325004E68F6 /* Network */,
 			);
 			path = Signup;
@@ -176,6 +176,38 @@
 				279A701428819E08004E68F6 /* SignupWebServiceTests.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		27D3535B28881D9900C7343C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				279A700128819E07004E68F6 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27D3535C28881DC900C7343C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27815BC42885DCD6008E0F31 /* SignupFormModelValidatorTestCase.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27D3535D28881DD600C7343C /* Dobules */ = {
+			isa = PBXGroup;
+			children = (
+				27D3535E28881DDA00C7343C /* Mock */,
+			);
+			path = Dobules;
+			sourceTree = "<group>";
+		};
+		27D3535E28881DDA00C7343C /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				278E48752881AC5D00C76C27 /* MockURLProtocol.swift */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

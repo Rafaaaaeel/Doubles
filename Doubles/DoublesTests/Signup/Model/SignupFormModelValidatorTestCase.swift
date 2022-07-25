@@ -94,7 +94,19 @@ class SignupFormModelValidatorTestCase: XCTestCase {
         let isEmailValid = sut.isEmailValid(email: "rafaeloicloud@")
         
         XCTAssertFalse(isEmailValid, "The isEmailValid() should have returned FALSE for a email that does not contain '@' but it has returned TRUE")
-    }    
+    }
+    
+    func test_SignupFormModelValidator_WhenPasswordMatch_ShouldReturnTrue(){
+        let passwordMatch = sut.doPasswordsMatch(password: "123456", repeatPassword: "123456")
+        
+        XCTAssertTrue(passwordMatch)
+    }
+    
+    func test_SignupFormModelValidator_WhenPasswordDoesNotMatch_ShouldReturnTrue(){
+        let passwordMatch = sut.doPasswordsMatch(password: "123456", repeatPassword: "12346")
+        
+        XCTAssertFalse(passwordMatch)
+    }
     
     
 }
